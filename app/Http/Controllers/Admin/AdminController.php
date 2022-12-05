@@ -13,7 +13,7 @@ use App\Task;
 
 class AdminController extends Controller
 {
-   
+//    test abid
     public function index(){
         $id = Auth::user()->id;
         $setting = CompanySetting::where('user_id', $id)->first();
