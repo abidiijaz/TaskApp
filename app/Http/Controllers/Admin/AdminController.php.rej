@@ -1,0 +1,9 @@
+diff a/app/Http/Controllers/Admin/AdminController.php b/app/Http/Controllers/Admin/AdminController.php	(rejected hunks)
+@@ -13,7 +13,6 @@
+ 
+ class AdminController extends Controller
+ {
+-    // test changes
+     public function index(){
+         $id = Auth::user()->id;
+         $setting = CompanySetting::where('user_id', $id)->first();
